@@ -51,26 +51,6 @@ export default function ContactSection() {
     }
   };
 
-  const handleDownloadCV = async () => {
-    try {
-      const response = await fetch('/api/download-cv');
-      if (response.ok) {
-        const blob = await response.blob();
-        const url = window.URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = url;
-        link.download = 'Muhammad_Aqil_Fahmi_CV.txt';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        window.URL.revokeObjectURL(url);
-      }
-    } catch (error) {
-      console.error('Error downloading CV:', error);
-      alert('Gagal download CV. Silakan coba lagi.');
-    }
-  };
-
   return (
     <section id="contact" className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-6xl mx-auto">
