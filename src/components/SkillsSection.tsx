@@ -11,7 +11,7 @@ export default function SkillsSection() {
             Skills & Expertise
           </h2>
           <p className="text-xl text-gray-600">
-            Technologies dan tools yang saya kuasai
+            Technologies and tools I work with
           </p>
         </div>
 

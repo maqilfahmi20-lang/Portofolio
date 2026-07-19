@@ -9,10 +9,10 @@ export default function EducationSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Pendidikan & Sertifikasi
+            Education & Certifications
           </h2>
           <p className="text-xl text-gray-600">
-            Background pendidikan dan sertifikasi profesional
+            Academic background and professional certifications
           </p>
         </div>
 
@@ -20,7 +20,7 @@ export default function EducationSection() {
           {/* Education */}
           <div>
             <h3 className="text-3xl font-bold text-primary mb-8 flex items-center">
-              <span className="text-4xl mr-3">🎓</span> Pendidikan
+              <span className="text-4xl mr-3">🎓</span> Education
             </h3>
             <div className="space-y-6">
               {portfolioData.education.map((edu) => (
@@ -51,7 +51,7 @@ export default function EducationSection() {
           {/* Certifications */}
           <div>
             <h3 className="text-3xl font-bold text-primary mb-8 flex items-center">
-              <span className="text-4xl mr-3">🏆</span> Sertifikasi
+              <span className="text-4xl mr-3">🏆</span> Certifications
             </h3>
             <div className="space-y-4">
               {portfolioData.certifications.map((cert, idx) => (
@@ -70,7 +70,7 @@ export default function EducationSection() {
             {/* Languages */}
             <div className="mt-12">
               <h3 className="text-2xl font-bold text-primary mb-6 flex items-center">
-                <span className="text-3xl mr-2">🌐</span> Bahasa
+                <span className="text-3xl mr-2">🌐</span> Languages
               </h3>
               <div className="space-y-4">
                 {portfolioData.languages.map((lang, idx) => (

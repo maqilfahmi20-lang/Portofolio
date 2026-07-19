@@ -20,6 +20,8 @@ export const portfolioData = {
       category: "Web Application",
       shortDesc: "Scalable edtech platform with online exams and payment gateway",
       description: "Developed a comprehensive education technology platform featuring online exams, OAuth authentication, and role-based access control for premium content.",
+      deployUrl: "https://edtech-production-fce2.up.railway.app/",
+      githubUrl: "",
       features: [
         "Online exam system with real-time validation",
         "OAuth authentication integration",
@@ -46,6 +48,8 @@ export const portfolioData = {
       category: "Frontend",
       shortDesc: "Responsive tourism website with improved UX design",
       description: "Created an engaging tourism website interface focused on information accessibility and user experience across multiple devices.",
+      deployUrl: "https://pariwisatabrebes.github.io/pariwisataBrebes/",
+      githubUrl: "",
       features: [
         "Responsive design using Bootstrap",
         "Interactive UI/UX design",
@@ -70,6 +74,8 @@ export const portfolioData = {
       category: "Fullstack Web Application",
       shortDesc: "PHP Laravel system for school data management",
       description: "Developed a fullstack web application using PHP and Laravel to support school digitalization and improve data management efficiency during internship at Diskominfo Kota Semarang.",
+      deployUrl: "https://websdwithlaravel-production-c556.up.railway.app/",
+      githubUrl: "",
       features: [
         "Student information management",
         "Teacher and class management",
@@ -80,8 +86,8 @@ export const portfolioData = {
       ],
       technologies: ["PHP", "Laravel", "MySQL", "JavaScript"],
       image: "/projects/school-system.jpg",
-      startDate: "Mei 2023",
-      endDate: "Okt 2023",
+      startDate: "Februari 2025",
+      endDate: "April 2025",
       highlights: [
         "Improved data management efficiency",
         "Centralized information system",
@@ -121,11 +127,22 @@ export const portfolioData = {
     },
   ],
 
+  publications: [
+    {
+      id: 1,
+      title: "MSME Sales Prediction Using K-Means Clustering and Ensemble Voting",
+      journal: "SINTA 3 Journal",
+      year: "2025",
+      description: "Research on machine learning-based sales prediction for MSMEs combining K-Means clustering and Ensemble Voting methods to improve forecast accuracy.",
+      url: "https://garuda.kemdiktisaintek.go.id/documents/detail/5920106",
+      tags: ["Machine Learning", "K-Means", "Ensemble Voting", "Data Science"],
+    },
+  ],
+
   certifications: [
     "Ilmuan Data Madya (Associate Data Science)",
     "TOEFL with score 580",
     "BASS Training Center Literasi AI",
-    "SINTA 3 Journal Publication — MSME Sales Prediction Using K-Means and Ensemble Voting (2025)",
   ],
 
   languages: ["Indonesian (Native)", "English (Fluent - TOEFL 580)"],
