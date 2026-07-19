@@ -22,12 +22,6 @@ export default function HeroSection() {
 
           {/* Left Content */}
           <div>
-            <div className="mb-4 inline-block">
-              <span className="text-secondary font-semibold text-sm tracking-widest uppercase">
-                Available for Work
-              </span>
-            </div>
-
             <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4 leading-tight">
               Muhammad<br />Aqil Fahmi
             </h1>
@@ -73,8 +67,8 @@ export default function HeroSection() {
                 <p className="text-gray-500 text-sm">Projects Built</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-secondary">1+</p>
-                <p className="text-gray-500 text-sm">experience</p>
+                <p className="text-3xl font-bold text-secondary">2+</p>
+                <p className="text-gray-500 text-sm">Years Experience</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-secondary">1</p>
@@ -86,12 +80,12 @@ export default function HeroSection() {
           {/* Right Side - Profile Photo or Avatar */}
           <div className="hidden md:flex justify-center items-center">
             {hasPhoto ? (
-              <div className="w-80 rounded-2xl overflow-hidden shadow-2xl ring-4 ring-secondary ring-offset-4">
+              <div className="w-48 rounded-2xl overflow-hidden shadow-2xl ring-4 ring-secondary ring-offset-4">
                 <Image
                   src="/profile.jpeg"
                   alt="Muhammad Aqil Fahmi"
-                  width={320}
-                  height={420}
+                  width={192}
+                  height={256}
                   className="w-full h-auto object-cover object-top"
                   priority
                 />
@@ -117,12 +111,12 @@ export default function HeroSection() {
 
         {/* Scroll Indicator */}
         <div className="flex justify-center mt-20">
-          <div className="animate-bounce flex flex-col items-center gap-1">
+          <a href="#projects" className="animate-bounce flex flex-col items-center gap-1 cursor-pointer">
             <span className="text-xs text-gray-400">Scroll down</span>
             <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
             </svg>
-          </div>
+          </a>
         </div>
       </div>
     </section>
