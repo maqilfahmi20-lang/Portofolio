@@ -67,7 +67,7 @@ export default function HeroSection() {
                 <p className="text-gray-500 text-sm">Projects Built</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-secondary">2+</p>
+                <p className="text-3xl font-bold text-secondary">1+</p>
                 <p className="text-gray-500 text-sm">Years Experience</p>
               </div>
               <div>
